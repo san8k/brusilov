@@ -1,0 +1,116 @@
+*{outline:0;box-sizing:border-box;-moz-box-sizing:border-box;//mozilla firefox 28 bug
+-webkit-tap-highlight-color: rgba(0,0,0,0);//Remove Gray Highlight When Tapping Links in Mobile Safari and Webkit
+-webkit-tap-highlight-color: transparent; // For some Androids
+tap-highlight-color: rgba(0,0,0,0);}
+:before,:after{outline:0;box-sizing:border-box;-moz-box-sizing:border-box;}
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;background:transparent;}
+main,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+
+body {
+    background-color: #eeeded;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0 20%;
+}
+
+.home {
+    min-height: 100vh;
+    height: 100%;
+    max-width: 1076px;
+    margin: 0 auto;
+    padding: 90px 40px 60px;
+    background-color: #fff;
+}
+
+p {
+    text-indent: 24px;
+    margin-bottom: 5px;
+}
+
+p.annotate {
+     font-style: italic;
+     margin: 20px auto;
+}
+
+p.stars {
+     text-align: center;
+     margin: 15px 0 10px;
+}
+
+
+h2 {
+    text-align: center;
+    margin: 20px 0 10px;
+}
+
+.author {
+    font-family: 'Arial Narrow', serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    line-height: 1.5;
+    font-family: 'Arial Narrow', serif;
+    margin-bottom: 30px;
+}
+
+.img {
+    float: left;
+    width: 374px;
+    margin: 10px 15px 5px 0;
+    text-align: center;
+}
+
+.img--right {
+ float: right;
+ margin: 10px 0 5px 15px;
+}
+
+.img--wide {
+ width: 100%;
+ margin: 10px 0;
+}
+
+.img figcaption{
+  font-size: 16px;
+  font-style: italic;
+}
+
+.img img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 1499px) {
+    body {
+        padding: 0 10%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    body {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    body {
+        padding: 0;
+    }
+
+    .home {
+        padding: 60px 20px 30px;
+    }
+
+    .img {
+        width: 100%;
+    }
+}
+
