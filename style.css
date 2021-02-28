@@ -29,12 +29,18 @@ p {
     text-align: justify;
 }
 
-p.annotate {
+.annotate {
      font-style: italic;
      margin: 20px auto;
 }
 
-p.stars {
+.small {
+    font-size: 14px;
+    line-height: 1.5;
+    font-style: normal;
+}
+
+.stars {
      text-align: center;
      margin: 15px 0 10px;
 }
