@@ -55,6 +55,7 @@ h2 {
     font-family: 'Arial Narrow', serif;
     text-align: center;
     margin-bottom: 30px;
+    font-weight: 600;
 }
 
 .main-title {
@@ -70,7 +71,7 @@ h2 {
 
 .img {
     float: left;
-    width: 374px;
+    width: 25%;
     margin: 10px 15px 5px 0;
     text-align: center;
 }
