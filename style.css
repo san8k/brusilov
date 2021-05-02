@@ -27,6 +27,7 @@ p {
     text-indent: 24px;
     margin-bottom: 5px;
     text-align: justify;
+    /*word-break: break-word;*/
 }
 
 .annotate {
